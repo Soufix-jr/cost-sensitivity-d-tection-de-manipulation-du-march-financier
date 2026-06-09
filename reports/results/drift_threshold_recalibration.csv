@@ -1,0 +1,4 @@
+recalibration_date,model,old_threshold,new_threshold,old_cost,new_cost,relative_improvement,TN,FP,FN,TP,trigger_feature_drift,trigger_cost_degradation
+2026-06-08 21:47:17,logistic_regression_calibrated_sigmoid,0.2028797179717971,0.11673634810174771,30063000,140000.0,0.9953431127964608,1184,20,0,25,True,False
+2026-06-08 21:47:17,random_forest_calibrated_sigmoid,0.0403959695969597,0.03017702830176134,15070000,77000.0,0.9948905109489051,1193,11,0,25,True,False
+2026-06-08 21:47:17,xgboost_calibrated_isotonic,0.1357864286428642,0.0,15021000,8428000.0,0.4389188469476067,0,1204,0,25,True,False

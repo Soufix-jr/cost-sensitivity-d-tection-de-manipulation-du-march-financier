@@ -1,0 +1,4 @@
+model,calibration,brier_score,roc_auc,log_loss,model_path
+logistic_regression,sigmoid,0.007151338670942183,0.9972093023255814,0.024711803286675476,models\logistic_regression_calibrated_sigmoid.pkl
+random_forest,sigmoid,0.005828145891808283,0.9979069767441859,0.019955966888080975,models\random_forest_calibrated_sigmoid.pkl
+xgboost,isotonic,0.003601093496429488,0.9789867109634551,0.09098179406245901,models\xgboost_calibrated_isotonic.pkl

@@ -1,0 +1,4 @@
+model,threshold,reference_cost,current_cost,cost_degradation_ratio,cost_degradation_detected,TN,FP,FN,TP
+logistic_regression_calibrated_sigmoid,0.2028797179717971,30063000,30063000.0,0.0,False,1195,9,2,23
+random_forest_calibrated_sigmoid,0.0403959695969597,15070000,15070000.0,0.0,False,1194,10,1,24
+xgboost_calibrated_isotonic,0.1357864286428642,15021000,15021000.0,0.0,False,1201,3,1,24

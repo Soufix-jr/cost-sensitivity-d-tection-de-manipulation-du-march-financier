@@ -1,0 +1,2 @@
+model,threshold,accuracy,precision,recall,f1_score,roc_auc,cost,TN,FP,FN,TP
+random_forest_smote,0.5,0.9918633034987795,0.7142857142857143,1.0,0.8333333333333334,0.9977076411960133,70000,1194,10,0,25

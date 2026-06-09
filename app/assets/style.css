@@ -1,0 +1,116 @@
+body {
+    background: radial-gradient(circle at top left, #0b1f3a 0%, #050816 45%, #02040a 100%);
+    color: #e6edf3;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.main-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #00d4ff;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #8b949e;
+    font-size: 16px;
+}
+
+.glass-card {
+    background: rgba(11, 16, 32, 0.82);
+    border: 1px solid rgba(0, 212, 255, 0.18);
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.08);
+    backdrop-filter: blur(12px);
+}
+
+.kpi-title {
+    color: #8b949e;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.kpi-value {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.kpi-subtitle {
+    font-size: 13px;
+    color: #8b949e;
+}
+
+.neon-blue {
+    color: #00d4ff;
+}
+
+.neon-green {
+    color: #00ff88;
+}
+
+.neon-orange {
+    color: #ffb000;
+}
+
+.neon-red {
+    color: #ff3b3b;
+}
+
+.risk-badge-high {
+    background: rgba(255, 59, 59, 0.15);
+    color: #ff3b3b;
+    border: 1px solid #ff3b3b;
+    padding: 7px 14px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.risk-badge-medium {
+    background: rgba(255, 176, 0, 0.15);
+    color: #ffb000;
+    border: 1px solid #ffb000;
+    padding: 7px 14px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.section-title {
+    color: #00d4ff;
+    font-weight: 750;
+    margin-bottom: 15px;
+}
+
+.command-tabs .nav-link {
+    color: #8b949e !important;
+    background: transparent !important;
+    border: none !important;
+    font-weight: 600;
+}
+
+.command-tabs .nav-link.active {
+    color: #00d4ff !important;
+    border-bottom: 2px solid #00d4ff !important;
+}
+
+.alert-panel {
+    border-left: 4px solid #ff3b3b;
+    padding-left: 16px;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner table {
+    background-color: #050816 !important;
+    color: #e6edf3 !important;
+}
+
+.Select-control {
+    background-color: #0b1020 !important;
+    color: #e6edf3 !important;
+}
+
+.Select-menu-outer {
+    background-color: #0b1020 !important;
+    color: #e6edf3 !important;
+}
